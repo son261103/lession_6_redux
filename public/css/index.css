@@ -1,0 +1,56 @@
+.container{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1em 2rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border: 1px solid #CCC;
+    border-radius: 1em;
+
+}
+
+.form-group {
+    margin: 1rem;
+
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    background: #CCCCCC;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #000;
+    align-items: center;
+    text-align: center;
+}
+
+form > button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #000;
+    align-items: center;
+    text-align: center;
+    margin-left: 45%;
+}
+
+.bg-body-secondary{
+    background: #CCCCCC;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #000;
+    align-items: center;
+    text-align: center;
+}
+
+.bg-body-secondary span{
+    color: red;
+}
